@@ -1,11 +1,14 @@
-"""
-Unit tests for the calculator module.
-"""
+"""This is a test file for my calculator program""" 
+from app import add
+'''My Calculator Test'''
+from calculator import add, subtract
 
 def test_addition():
-    """Tests addition function"""
-    assert 2 + 3 == 5  # This should pass
+    """The is a test of the addition function"""
+    '''Test that addition function works '''    
+assert add(2,2) == 4
 
 def test_subtraction():
-    """Tests subtraction function"""
-    assert 5 - 2 == 3  # This should pass
+    '''Test that addition function works '''    
+    assert subtract(2,2) == 0
+    
