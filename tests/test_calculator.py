@@ -1,5 +1,5 @@
 """This is a test file for my calculator program""" 
-from app import add
+from calculator import add  
 '''My Calculator Test'''
 from calculator import add, subtract
 
